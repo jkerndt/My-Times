@@ -12,3 +12,21 @@ ul {
 nav {
   display: inline-block;
 }
+.column {
+  flex-direction: column;
+  display: inline;
+  align-content: center;
+  justify-content: flex-start;
+}
+.column.large {
+  border: 2px solid black;
+  width: 630px;
+}
+.column.medium {
+  width: 300px;
+  border: 2px solid black;
+}
+.column.small {
+  width: 240px;
+  border: 2px solid black;
+}
