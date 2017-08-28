@@ -12,12 +12,6 @@ ul {
 nav {
   display: inline-block;
 }
-.column {
-  flex-direction: column;
-  display: inline;
-  align-content: center;
-  justify-content: flex-start;
-}
 .column.large {
   border: 2px solid black;
   width: 630px;
@@ -40,4 +34,20 @@ p {
   font-weight: bold;
   font-size: 30px;
   color: white;
+}
+.img-content {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+
+}
+.fall-img {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+
+}
+.camera-img {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+
+}
+.cat-img {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  
 }
