@@ -30,3 +30,14 @@ nav {
   width: 240px;
   border: 2px solid black;
 }
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.headline {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
