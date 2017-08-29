@@ -12,11 +12,18 @@ header {
   position: fixed;
   align-items: center;
   width: 100%;
+  border-bottom: 1px solid black;
 }
 a {
   color: black;
 }
 div {
+  border: 1px solid black;
+}
+header nav {
+  padding-right: 40px;
+}
+p {
   display: block;
 }
 .content {
@@ -25,6 +32,8 @@ div {
 .logo {
   color: MediumAquamarine;
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 .nav {
   display: inline;
@@ -34,6 +43,7 @@ div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-right: 32px;
 }
 .column.large {
   border: 2px solid black;
