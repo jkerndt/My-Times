@@ -1,5 +1,6 @@
 body {
   display: flex;
+  color: black;
 }
 header {
   font-family: Verdana;
@@ -11,6 +12,7 @@ header {
   width: 100%;
   border-bottom: 1px solid black;
   z-index: 1;
+  height: 80px;
 }
 a {
   color: black;
@@ -26,11 +28,10 @@ p {
   display: block;
 }
 .content {
-  display: inline-flex;
-  width: 100%;
+  display: flex;
+  width: 1232px;
   margin: 0 auto 78px auto;
-  justify-content: space-around;
-  padding-top: 50px;
+  padding-top: 116px;
 }
 .logo span {
   color: MediumAquamarine;
@@ -80,6 +81,8 @@ p {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: flex;
+  justify-content: space-between;
 }
 .lead-story {
   font-size: 40px;
@@ -108,7 +111,7 @@ p {
 }
 .cat-img {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
-
+  width: 260px;
 }
 .bite {
   border: 1px 0px;
@@ -120,4 +123,8 @@ p {
 .news-bites {
   font-size: 16px;
   font-weight: bold;
+}
+.headline {
+  color: black;
+  display: block;
 }
