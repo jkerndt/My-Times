@@ -1,9 +1,5 @@
-html {
-  display: flex;
-}
 body {
   display: flex;
-  width: 100%;
 }
 header {
   font-family: Verdana;
@@ -14,6 +10,7 @@ header {
   align-items: center;
   width: 100%;
   border-bottom: 1px solid black;
+  z-index: 1;
 }
 a {
   color: black;
@@ -23,8 +20,7 @@ div {
 }
 header nav {
   padding-right: 40px;
-  display: inline-flex;
-  align-items: center;
+  justify-content: flex-end;
 }
 p {
   display: block;
@@ -33,20 +29,28 @@ p {
   display: inline-flex;
   width: 100%;
   margin: 0 auto 78px auto;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 50px;
 }
 .logo span {
   color: MediumAquamarine;
-  font-weight: bold;
+}
+.logo {
   display: flex;
   align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
 }
 .column {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   margin-right: 32px;
-  width: 1200px;
+  width: 100%;
 }
 .column.large {
   border: 2px solid black;
