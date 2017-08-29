@@ -1,3 +1,9 @@
+html {
+  display: block;
+}
+body {
+  display: block;
+}
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -5,25 +11,47 @@ header {
   display: flex;
   position: fixed;
   align-items: center;
+  width: 100%;
+}
+a {
+  color: black;
+}
+div {
+  display: block;
+}
+.content {
+  display: flex;
 }
 .logo {
   color: MediumAquamarine;
+  font-weight: bold;
 }
-nav {
+.nav {
   display: inline;
+  font-weight: bold;
 }
-.large {
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.column.large {
   border: 2px solid black;
   width: 630px;
-  align-items: horizontal;
+  display: flex;
+  flex-direction: column;
 }
-.medium {
+.column.medium {
   width: 300px;
   border: 2px solid black;
+  display: flex;
+  flex-direction: column;
 }
-.small {
+.column.small {
   width: 240px;
   border: 2px solid black;
+  display: flex;
+  flex-direction: column;
 }
 .narrative {
   font-family: Georgia;
