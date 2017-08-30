@@ -1,6 +1,7 @@
 body {
   display: flex;
   color: black;
+  position: relative;
 }
 header {
   font-family: Verdana;
@@ -10,9 +11,12 @@ header {
   position: fixed;
   align-items: center;
   width: 100%;
-  border-bottom: 1px solid black;
-  z-index: 1;
   height: 80px;
+  border-bottom: 1px solid black;
+  z-index: 10;
+  background-color: white;
+  margin: 0;
+  padding: 0;
 }
 a {
   color: black;
@@ -24,6 +28,7 @@ div {
 header nav {
   padding-right: 40px;
   justify-content: flex-end;
+  z-index: 10;
 }
 p {
   display: block;
@@ -33,6 +38,8 @@ p {
   width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 116px;
+  position: relative;
+  z-index: 5;
 }
 .logo span {
   color: MediumAquamarine;
@@ -123,15 +130,20 @@ p {
   width: 260px;
 }
 .bite {
-  border: 1px 0px;
   font-size: 12px;
   background-color: WhiteSmoke;
   font-family: Verdana;
   color: DimGray;
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
 }
 .news-bites {
   font-size: 16px;
   font-weight: bold;
+}
+.news-bites h3 {
+  text-align: center;
 }
 .headline {
   color: black;
